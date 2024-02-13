@@ -1,0 +1,236 @@
+@font-face {
+  font-family: "Bebas";
+  src: url(fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Regular.ttf);
+}
+* {
+  margin: 0px;
+}
+body {
+  background-color: #e5e5e5;
+  font-family: "Roboto";
+}
+.headerbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff9f4;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  align-items: center;
+  padding: 13px 0px;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+}
+.header1 {
+  font-size: 20px;
+  display: flex;
+}
+.hnike {
+  color: #ff8367;
+  font-weight: bold;
+}
+.list {
+  display: flex;
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 16px;
+  font-weight: 700;
+  justify-content: space-between;
+  width: 450px;
+  padding-right: 44px;
+}
+li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.homebtn {
+  color: rgba(0, 0, 0, 0.9);
+}
+.header {
+  background-color: #fff9f4;
+  display: flex;
+  padding-top: 65px;
+  padding-bottom: 85px;
+}
+.heading1 {
+  font-size: 80px;
+  font-weight: 400;
+  color: #ff8367;
+  font-family: "Bebas";
+}
+.heading2 {
+  font-size: 80px;
+  color: #363958;
+  font-family: "Bebas";
+  font-weight: 400;
+}
+.paramain {
+  color: #212529;
+  font-size: 16px;
+}
+.container1 {
+  margin-left: 320px;
+}
+.container2 {
+  padding-top: 130px;
+  width: 360px;
+  margin-left: 165px;
+}
+.btn {
+  background-color: #3d4ff3;
+  display: flex;
+  color: #ffffff;
+  width: 112.47px;
+  height: 44px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-top: 20px;
+}
+h4 {
+  font-size: 24px;
+  color: #363958;
+}
+h2 {
+  font-size: 48px;
+  color: #363958;
+  font-family: "Bebas";
+  font-weight: 500;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.NSheading {
+  margin-bottom: 8px;
+}
+.price {
+  font-size: 24px;
+  font-weight: 1000;
+  color: #ff8367;
+}
+.shoebox {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 390px;
+  padding: 12px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.boximg {
+  background-color: #f1f1f1;
+  height: 350px;
+  border-radius: 12px;
+}
+.details {
+  padding: 16px;
+}
+.pricedetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.casualshoescontainer {
+  display: flex;
+  justify-content: center;
+}
+.centrediv {
+  margin: 0px 24px 0px 24px;
+}
+h5 {
+  font-size: 20px;
+  color: #363958;
+}
+.smallcontainer {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 16px;
+}
+.scontdetails {
+  width: 300px;
+}
+.smlcont3 {
+  /* margin-left: 00px; */
+  padding-right: 100px;
+}
+.smlcontdiv2 {
+  margin: 16px 0px;
+}
+.container {
+  display: flex;
+  /* width: 100%; */
+  justify-content: center;
+  margin-top: 50px;
+  padding: 0px;
+}
+.inputdiv {
+  background-color: #ffffff;
+  width: 1272px;
+  height: 180px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 12px;
+  margin-top: 70px;
+}
+.subbtn {
+  background-color: #3d4ff3;
+  color: #ffffff;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.input {
+  /* border: none; */
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  padding: 6px;
+  font-size: 16px;
+}
+.flexinput {
+  display: flex;
+  padding: 40px 50px 0px 50px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.footermain {
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+.list2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.name {
+  color: #ff8367;
+}
+.end {
+  margin-bottom: 30px;
+}
